@@ -32,8 +32,8 @@ jobs:
         key: ${{ secrets.SERVER_SSH_KEY }}
         port: ${{ secrets.SERVER_SSH_PORT }}
         script: |
-          sudo mkdir -p ${{ secrets.SERVER_DEPLOY_PATH }}
-          sudo chown -R $USER:$USER ${{ secrets.SERVER_DEPLOY_PATH }}
+          mkdir -p ${{ secrets.SERVER_DEPLOY_PATH }}
+          chown -R $USER:$USER ${{ secrets.SERVER_DEPLOY_PATH }}
 
     - name: Upload build to VPS
       uses: appleboy/scp-action@v0.1.6
