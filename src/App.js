@@ -37,7 +37,7 @@ export default function App() {
             <span>Descargar APK</span>
           </a>
           <a
-            href=""
+            href="https://play.google.com/store/apps/details?id=com.mifincaapp"
             target="_blank"
             rel="noopener noreferrer"
             className="btn playstore"
