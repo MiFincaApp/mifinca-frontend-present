@@ -26,7 +26,13 @@ export default function App() {
 
         {/* Botones */}
         <div className="buttons animate-fade-up">
-          <a href="/MiFincaApp.apk" download className="btn apk">
+          <a
+            href="/MiFincaApp.apk"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn apk"
+          >
             <span className="btn-icon">📦</span>
             <span>Descargar APK</span>
           </a>
