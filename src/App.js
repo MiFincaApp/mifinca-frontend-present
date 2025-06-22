@@ -1,5 +1,3 @@
-"use client"
-
 import { useEffect } from "react"
 import "./App.css"
 
@@ -33,12 +31,12 @@ export default function App() {
             <span>Descargar APK</span>
           </a>
           <a
-            href="https://play.google.com/store/apps/details?id=com.tuappid"
+            href=""
             target="_blank"
             rel="noopener noreferrer"
             className="btn playstore"
           >
-            <img src="/playstore-icon.webp" alt="Google Play" className="icon animate-fade-up" />
+            <img src="/logoplaystore.png" alt="Google Play" className="icon animate-fade-up" />
             <span>Ir a Google Play</span>
           </a>
         </div>
@@ -90,7 +88,18 @@ export default function App() {
 
         {/* Footer */}
         <footer className="animate-fade-up">
-          <p>© {new Date().getFullYear()} Desarrollado por el equipo de MiFincaApp</p>
+          <p>
+            © {new Date().getFullYear()} Desarrollado por el equipo de MiFincaApp
+            {" | "}
+            <a
+              href="/politicasdeprivacidad.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#ffffff", textDecoration: "underline" }}
+            >
+              Política de Privacidad
+            </a>
+          </p>
         </footer>
       </div>
     </div>
